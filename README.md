@@ -37,7 +37,7 @@ executar o projeto
 
 ## 📦 Tecnologias usadas:
 
-* ![Java](https://img.shields.io/badge/java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+* ![Java](https://img.shields.io/badge/java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 * ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 * ![JPA](https://img.shields.io/badge/JPA-orange?style=for-the-badge)
 * ![Maven](https://img.shields.io/badge/maven-C60F13?style=for-the-badge&logo=apache-maven&logoColor=white)
