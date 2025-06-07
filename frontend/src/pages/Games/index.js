@@ -3,7 +3,6 @@ import api from '../../services/api';
 import { Link, useParams } from 'react-router-dom';
 import './games.css';
 
-
 function Games() {
 
     const { id } = useParams();
@@ -17,6 +16,22 @@ function Games() {
 
     const nomeDaLista = nomes[id] || 'Categoria desconhecida';
 
+    const conteudoCardJogos = loading ? (
+        <p className="loading">Carregando jogos...</p>
+    ) : (
+        jogos.map((jogo) => (
+            <article key={jogo.id}>
+                <img src={jogo.imgUrl} alt={jogo.title} />
+                <div>
+                    <strong>{jogo.title}</strong>
+                    <p>{jogo.shortDescription}</p>
+                    <p className="year">{jogo.year}</p>
+                    <Link to={`/games/${jogo.id}`}>Acessar</Link>
+                </div>
+            </article>
+        ))
+    );
+
     useEffect(() => {
         async function loadJogos(){
             const response = await api.get(`/lists/${id}/games`)
@@ -27,33 +42,13 @@ function Games() {
 
         loadJogos();
         setLoading(false);
-    }, []);
-
-    if(loading){
-        return(
-            <div className="loading">
-                <h2>Carregando filmes...</h2>
-            </div>
-        )
-    }
+    }, [id]);
 
     return (
         <div className="container-games">
             <div className="card-jogos">
                 <h1 className="titulo-lista">{nomeDaLista}</h1>
-                {jogos.map((jogo) => {
-                    return (
-                        <article key={jogo.id}>
-                            <img src={jogo.imgUrl} alt={jogo.title}/>
-                            <div>
-                                <strong>{jogo.title}</strong>
-                                <p>{jogo.shortDescription}</p>
-                                <p className="year">{jogo.year}</p>
-                                <Link to={`/jogo/${jogo.id}`}>Acessar</Link>
-                            </div>
-                        </article>
-                    )
-                })}
+                {conteudoCardJogos}
             </div>
         </div>
     )
