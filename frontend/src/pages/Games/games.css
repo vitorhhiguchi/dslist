@@ -1,0 +1,63 @@
+.container-games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background-color: #e6e6e6;
+}
+
+.titulo-lista {
+    font-size: 56px;
+    color: #223b5c;
+    margin-bottom: 30px;
+}
+
+.card-jogos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1050px;
+}
+
+.card-jogos article {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-jogos img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.card-jogos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.card-jogos strong {
+    font-size: 22px;
+    color: #223b5c;
+}
+
+.card-jogos p {
+    font-size: 15px;
+    color: #555;
+    font-size: 16px;
+    margin: 4px 0;
+}
+
+.card-jogos p.year {
+    color: #000; 
+    font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.container-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-color: #e6e6e6;
+}
+
+.container-type-list {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+    height: auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.lista-game {
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+}
