@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #223b5c;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: bold;
+    margin: 20px;
+}
