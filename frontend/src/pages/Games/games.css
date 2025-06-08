@@ -3,9 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 100px 20px;
     min-height: 100vh;
     background-color: #e6e6e6;
+    
 }
 
 .titulo-lista {
@@ -67,4 +68,21 @@
     font-size: 30px;
     background-color: #FFF;
     border-radius: 8px;
+}
+
+.enter-info {
+    text-decoration: none;
+    width: 11%;
+    color: #ffffff;
+    background-color: #223b5c;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.enter-info:hover {
+    background-color: #1a324a;
+    color: #FFF;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }

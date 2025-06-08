@@ -26,7 +26,7 @@ function Games() {
                     <strong>{jogo.title}</strong>
                     <p>{jogo.shortDescription}</p>
                     <p className="year">{jogo.year}</p>
-                    <Link to={`/games/${jogo.id}`}>Acessar</Link>
+                    <Link className="enter-info" to={`/games/${jogo.id}`}>Acessar</Link>
                 </div>
             </article>
         ))
