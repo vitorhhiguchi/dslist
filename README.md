@@ -59,4 +59,4 @@ npm start
 
 * Um agradecimento publicamente ao Nelio Alves por ter passado esse conteúdo na semana de Spring.
 * Para suporte, mande um email para vitorhiroshi10@gmail.com.
-* Link para o seu linkedin [Meu linkedin](https://www.linkedin.com/in/vitor-hiroshi-higuchi-b0918b270/)
+* Link para o seu linkedin [Meu linkedin](www.linkedin.com/in/vitorhiguchi)
