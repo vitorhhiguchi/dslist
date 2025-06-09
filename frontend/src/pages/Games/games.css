@@ -22,13 +22,13 @@
     width: 100%;
     max-width: 1050px;
 }
-
 .card-jogos article {
     display: flex;
     background-color: #FFF;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .card-jogos img {
@@ -85,4 +85,10 @@
     background-color: #1a324a;
     color: #FFF;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.droppable-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* espaçamento entre cards */
 }
