@@ -48,6 +48,8 @@ npm start
 * ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 * ![JPA](https://img.shields.io/badge/JPA-orange?style=for-the-badge)
 * ![Maven](https://img.shields.io/badge/maven-C60F13?style=for-the-badge&logo=apache-maven&logoColor=white)
+* ![PostgreSQL](https://img.shields.io/badge/postgresql-15-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+* ![Docker](https://img.shields.io/badge/docker-25x-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ## 👷 Autores
 
